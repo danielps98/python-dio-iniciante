@@ -1,7 +1,7 @@
 opcao = -1
 
 while opcao != 0:
-  opcao = int(input(" [1] sacar \n[2] extrato \ [0] sair \n:: "))
+  opcao = int(input(" [1] sacar \n[2] extrato \n [0] sair \n:: "))
     
     
   if opcao == 1:
