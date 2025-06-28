@@ -15,6 +15,7 @@ class Cliente:
         self.contas.append(conta)
 
 
+class PessoaFisica(Cliente):
     def __init__(self, nome, cpf, data_nascimento, endereco):
         super().__init__(endereco)
         self.nome = nome
